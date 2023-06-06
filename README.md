@@ -65,3 +65,20 @@ Terraform
 Перечислите основные функции, которые могут использоваться в Terraform.
 
 ### Ответ:
+1. Числовые функции (abs(number); ceil(number); log(number, base); signum(number); другие).
+
+2. Строковые функции (chomp("string"); formatlist(spec, values...); join(separator, list); replace(string, substring, replacement); substr(string, offset, length) и другие).
+
+3. Функции по работе с коллекциями (chunklist(list, chunk_size); compact(list(string)); distinct(list) и другие).
+
+4. Функции кодирования (base64encode(string); jsonencode() и другие).
+
+5. Функции для работы с файловой системой (dirname(string); file(path); templatefile(path, vars) и другие).
+
+6. Функции по работе с датой и временем (timeadd(timestamp, duration); timestamp() и другие).
+
+7. Функции по работе с IP сетями (cidrsubnet(prefix, newbits, netnum); cidrnetmask(prefix) и другие).
+
+Все функции на:
+
+https://github.com/hashicorp/terraform/tree/main/website/docs/language/functions
